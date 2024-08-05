@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@chakra-ui/toast": "^7.0.2",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@render-with/react-router": "^5.0.0",
+    "axios": "^1.7.3",
+    "framer-motion": "^11.3.21",
+    "json-server": "^1.0.0-beta.1",
+    "lodash": "^4.17.21",
+    "navigation": "^6.2.0",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.26.0",
+    "router": "^1.3.8",
+    "use-context-selector": "^2.0.0"
+  }
+}
