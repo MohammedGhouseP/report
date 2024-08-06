@@ -92,7 +92,7 @@ export default function Login() {
           </Heading>
           <Heading size="sm">
             UserName : eve.holt@reqres.in <br />
-            password : cityslicka
+            Password : cityslicka
           </Heading>
         </VStack>
       </Container>
