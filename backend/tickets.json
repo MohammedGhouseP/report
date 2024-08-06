@@ -5,7 +5,7 @@
       "description": "Fix login issue is done.,mn",
       "assignee": "Rahul",
       "status": "completed",
-      "priority": 8,
+      "priority": 9,
       "id": "2"
     },
     {
@@ -39,22 +39,6 @@
       "assignee": "Neha",
       "status": "pending",
       "priority": 6
-    },
-    {
-      "id": "11",
-      "title": "error",
-      "description": "Akash git",
-      "assignee": "Amit",
-      "status": "progress",
-      "priority": 8
-    },
-    {
-      "id": "12",
-      "title": "map array bug",
-      "description": "not rendering",
-      "assignee": "Amit",
-      "status": "pending",
-      "priority": 5
     }
   ]
 }
