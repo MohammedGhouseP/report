@@ -24,7 +24,7 @@ export default function TicketEdit() {
   async function fetchAndUpdate() {
     setLoading(true);
     try {
-      let res = await axios.get(`http://localhost:3000/tickets/${id}`);
+      let res = await axios.get(`https://report-backend-1.onrender.com/tickets/${id}`);
       let data = res?.data;
 
       setLoading(false);
@@ -47,7 +47,7 @@ export default function TicketEdit() {
       };
 
       let res = await axios.put(
-        `http://localhost:3000/tickets/${id}`,
+        `https://report-backend-1.onrender.com/tickets/${id}`,
         updatedTicket
       );
 

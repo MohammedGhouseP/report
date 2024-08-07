@@ -27,7 +27,7 @@ export default function TicketCreate() {
 
     try {
       // Fetch existing tickets to determine the next ID
-      const response = await axios.get("http://localhost:3000/tickets");
+      const response = await axios.get("https://report-backend-1.onrender.com/tickets");
       const tickets = response.data;
       const nextId = tickets.length ? Math.max(...tickets.map(ticket => ticket.id)) + 1 : 1;
 
@@ -43,7 +43,7 @@ export default function TicketCreate() {
 
       const res = await axios({
         method: "post",
-        url: "http://localhost:3000/tickets",
+        url: "https://report-backend-1.onrender.com/tickets",
         data: newTicket,
       });
      

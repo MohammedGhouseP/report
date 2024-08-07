@@ -40,7 +40,7 @@ export default function Tickets() {
 
       let res = await axios({
         method: "get",
-        url: `http://localhost:3000/tickets`,
+        url: `https://report-backend-1.onrender.com/tickets`,
         params: queryParams,
       });
 

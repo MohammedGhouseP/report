@@ -29,7 +29,7 @@ export default function TicketEdit() {
     try {
       let res = await axios({
         method: "get",
-        url: `http://localhost:3000/tickets/${id}`,
+        url: `https://report-backend-1.onrender.com/tickets/${id}`,
       });
       // console.log("get");
 
@@ -48,7 +48,7 @@ export default function TicketEdit() {
   async function deleteTicket() {
     try {
       console.log(id);
-      const res = await axios.delete(`http://localhost:3000/tickets/${id}`);
+      const res = await axios.delete(`https://report-backend-1.onrender.com/tickets/${id}`);
       if (res.status === 200) {
         navigate("/tickets");
       }

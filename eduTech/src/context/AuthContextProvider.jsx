@@ -36,8 +36,7 @@ export function AuthContextProvider({ children }) {
       navigate("/tickets");
     }
 
-    // const navigate = useNavigate();
-    // navigate("/login");
+   
   };
   return (
     <AuthContext.Provider value={{ authDetail, login, logout }}>
