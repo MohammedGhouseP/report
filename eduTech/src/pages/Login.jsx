@@ -41,18 +41,20 @@ export default function Login() {
     } catch (error) {
       console.log(error);
     }
-  }
-  if (isLoggedIn) {
 
-    toast({
-      title: "Welcome!!!",
-      description: "Now Explore The Home page.",
-      status: "success",
-      duration: 3000,
-      isClosable: true,
-    });
-    // console.log(isLoggedIn, "is logged in");
-    return <Navigate to="/tickets" />;
+
+    if (isLoggedIn) {
+  
+      toast({
+        title: "Welcome!!!",
+        description: "Now Explore The Home page.",
+        status: "success",
+        duration: 3000,
+        isClosable: true,
+      });
+      // console.log(isLoggedIn, "is logged in");
+      return <Navigate to="/tickets" />;
+    }
   }
 
   return (
